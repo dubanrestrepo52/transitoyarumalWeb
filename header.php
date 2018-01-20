@@ -19,12 +19,14 @@
 <body>
 
 <!--Apertura del div contenedor de todo el sitio (padre)-->
+<div id="preloader">
+    <div id="loader">&nbsp;</div>
+</div>
 			
-<div class="container-fluid padre-sitio pl-0 pr-0" id="fullpage">
+<div class="container-fluid padre-sitio pl-0 pr-0">
 
 
 
-<div class="section">
 
 	<header class="container">
 		<!--Este div encierrra el encabezado (header)-->

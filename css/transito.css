@@ -2,6 +2,24 @@ body{
 	
 	margin-left: 0px;
 	margin-right: 0px;
+	overflow: hidden;
+}
+#preloader {
+    position: fixed;
+    top:0; left:0;
+    right:0; bottom:0;
+    background: #fff;
+    z-index: 100;
+}
+#loader {
+   width: 100px;
+   height: 100px;
+    position: absolute;
+    left:50%; top:50%;
+    background: url(../images/loader.gif);
+    background-size: cover;
+    background-position: center;
+    margin:-50px 0 0 -50px;
 }
 h3, h2, h1{
 	font-family: oswald;
@@ -15,6 +33,7 @@ h2{
 	margin-left: 0px;
 	margin-right: 0px;
 }
+
 
 
 /*Encabezado-----------------------------------------------------------------------------------------------------------------------------------------*/
@@ -92,7 +111,11 @@ h2{
 	}
 	
 }
-
+@media(max-width: 320px){
+	#s{
+		width: 170px;
+	}
+}
 .buscar{
 	position: fixed;
 	z-index: 40;
@@ -108,6 +131,14 @@ h2{
 	position: fixed;
 	z-index: 40;
 	top: 60%;
+}
+@media(max-height:450px){
+	.buscar{
+		top:30%;
+	}
+	.accesibilidad{
+		top: 70%;
+	}
 }
 .text-in-img{
 	position: absolute;
@@ -192,32 +223,11 @@ h2{
 .img-degradado {
 	width: 100%;
 	height: 100vh;
-
-}
-.img-degradado img{
-	width: 100%;
-	overflow: hidden;
-	position: relative;
-
-
+	background-size: cover;
+	background-position: center;
 
 }
 
-.img-deg{
-	height: 100vh;
-	opacity: 0.3;
-
-}
-@media(max-width: 768px){
-	.img-deg{
-		
-	}
-}
-.quienes-somos{
-	width: 100%;
-	position: absolute;
-	z-index: 5;
-}
 .nuestra-entidad{
 	z-index: 10;
 	font-family: oswald;
@@ -250,7 +260,17 @@ h2{
 
 .ent-logo img{
 	width: 20%;
+
 }
+.menu-ent{
+	height: 70%;
+
+}
+.menu-ent ul{
+	height: 90%;
+	overflow: auto;
+}
+
 
 .menu-ent ul li{
 		list-style: none;
@@ -356,6 +376,11 @@ font-size: 30pt;
 .encuentranos{
 	font-family: oswald;
 	height: 100vh;
+}
+@media(max-height: 465px){
+	.encuentranos{
+		height: 100%;
+	}
 }
 .pie{
 	background-color: #000;

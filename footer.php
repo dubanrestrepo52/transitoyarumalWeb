@@ -80,14 +80,14 @@
 <!--Llamado de los archivos de JS-->
 
 <script src="<?php 	echo get_stylesheet_directory_uri(); ?>/js/jquery-3.2.1.min.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="<?php 	echo get_stylesheet_directory_uri(); ?>/js/jquery.fullpage.js"></script>
+<script src="<?php 	echo get_stylesheet_directory_uri(); ?>/js/popper.min.js"></script>
 <script src="<?php 	echo get_stylesheet_directory_uri(); ?>/js/bootstrap.bundle.min.js"></script>
 <script src="<?php 	echo get_stylesheet_directory_uri(); ?>/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="<?php 	echo get_stylesheet_directory_uri(); ?>/slick/slick.min.js"></script>
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/propio.js"></script>
+
 				
 <!--Cierre general del html-->
 
 </html>
+

@@ -1,33 +1,38 @@
 //Botón de busqueda y de traducción-----------------------------------------------------------------------------------------
+$(document).ready(function(){});
 
-$(document).ready(function(){
-    $("#click").click(function(){
+$(window).on("load", function() {
+    $('#preloader').fadeOut('slow');
+  $('body').css({'overflow':'visible'});
+});
+
+
+$("#click").click(function(){
         $("#busqueda").toggle();
     });
-});
-$(document).ready(function(){
+
+  
     $("#telefono").click(function(){
         $("#tel").toggle();
     });
-});
-$(document).ready(function(){
+
     $("#click-traductor").click(function(){
         $("#traductor").toggle();
     });
-});
 
-$(document).ready(function(){
+
+
     $("#acc").click(function(){
         $(".accessability_container").toggle();
     });
-});
+
 
 $('.close_container').text('');
 
 
 $('.sfsiaftrpstwpr').addClass('col-12');
 //Menú stycky----------------------------------------------------------------------------------------------------------
-$(document).ready(function(){
+
 	var altura = $('.menu').offset().top;
 	
 	$(window).on('scroll', function(){
@@ -38,7 +43,7 @@ $(document).ready(function(){
 		}
 	});
  
-});
+
 $('.dropdown-menu').addClass('submenu');
 $('.screen-reader-text').text('');
 
@@ -249,6 +254,9 @@ $('#slider-consejos').slick({
       }
     }
     ]});
+
+
+
 //Hasta aquí el slider de consejos
 
 //libreria del scroll

@@ -16,7 +16,9 @@
 </head>
 
 <body>
-
+<div id="preloader">
+    <div id="loader">&nbsp;</div>
+</div>
 <!--Apertura del div contenedor de todo el sitio (padre)-->
 			
 <div class="container-fluid padre-sitio pl-0 pr-0">
