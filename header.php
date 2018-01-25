@@ -3,15 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0, width=device-width">
-	<link rel="stylesheet" href="<?php 	echo get_stylesheet_directory_uri(); ?>/css/bootstrap.min.css">
-	<link rel="stylesheet" href="<?php 	echo get_stylesheet_directory_uri(); ?>/css/jquery.fullpage.css">
 	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
-	<link rel="stylesheet" href="<?php 	echo get_stylesheet_directory_uri(); ?>/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="<?php 	echo get_stylesheet_directory_uri(); ?>/slick/slick.css">
-	<link rel="stylesheet" type="text/css" href="<?php 	echo get_stylesheet_directory_uri(); ?>/slick/slick-theme.css">
 	<link rel="icon" href="<?php 	echo get_stylesheet_directory_uri(); ?>/images/favicon.ico" type="image/x-icon">
-	<link rel="stylesheet" href="<?php 	echo get_stylesheet_directory_uri(); ?>/css/transito.css">
+	<link rel="stylesheet" href="<?php 	echo get_stylesheet_directory_uri(); ?>/css/styles-min.css">
 	<title>Tránsito de Yarumal</title>
 	<?php 	wp_head(); ?>
 </head>
@@ -19,9 +14,7 @@
 <body>
 
 <!--Apertura del div contenedor de todo el sitio (padre)-->
-<div id="preloader">
-    <div id="loader">&nbsp;</div>
-</div>
+
 			
 <div class="container-fluid padre-sitio pl-0 pr-0">
 

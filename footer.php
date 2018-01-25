@@ -79,12 +79,9 @@
 
 <!--Llamado de los archivos de JS-->
 
-<script src="<?php 	echo get_stylesheet_directory_uri(); ?>/js/jquery-3.2.1.min.js"></script>
-<script src="<?php 	echo get_stylesheet_directory_uri(); ?>/js/popper.min.js"></script>
-<script src="<?php 	echo get_stylesheet_directory_uri(); ?>/js/bootstrap.bundle.min.js"></script>
-<script src="<?php 	echo get_stylesheet_directory_uri(); ?>/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="<?php 	echo get_stylesheet_directory_uri(); ?>/slick/slick.min.js"></script>
-<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/propio.js"></script>
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/min/all.js"></script>
+
+
 
 				
 <!--Cierre general del html-->

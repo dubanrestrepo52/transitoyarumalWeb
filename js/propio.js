@@ -1,12 +1,6 @@
 //Botón de busqueda y de traducción-----------------------------------------------------------------------------------------
 $(document).ready(function(){});
-
-$(window).on("load", function() {
-    $('#preloader').fadeOut('slow');
-  $('body').css({'overflow':'visible'});
-});
-
-
+              
 $("#click").click(function(){
         $("#busqueda").toggle();
     });
@@ -165,10 +159,17 @@ $('.slider-footer').slick({
   ]
 });
 
-//Animacion para scroll
+//Animacion para scroll}
+var pathname = document.domain; //captura el dominio del sitio
+var protocolo = location.protocol; //Captura el protocolo http o https
 
-  $('a[href="http://transitoyarumal.dev/#img-degradado"]').click(function (event)
+               
+
+               
+
+  $('a[href="'+protocolo+'//'+pathname+'/#img-degradado"]').click(function (event)
 {
+
 event.stopPropagation();
 var Position = jQuery('[id="img-degradado"]').offset().top;
 jQuery('html, body').animate({ scrollTop: Position }, 1100);
@@ -177,7 +178,7 @@ return false;
 
 
 
-$('a[href="http://transitoyarumal.dev/#services"]').click(function (event)
+$('a[href="'+protocolo+'//'+pathname+'/#services"]').click(function (event)
 {
 event.stopPropagation();
 var Position = jQuery('[id="services"]').offset().top;
@@ -186,7 +187,7 @@ return false;
 });
 
 
-$('a[href="http://transitoyarumal.dev/#news"]').click(function (event)
+$('a[href="'+protocolo+'//'+pathname+'/#news"]').click(function (event)
 {
 event.stopPropagation();
 var Position = jQuery('[id="news"]').offset().top;
@@ -195,7 +196,7 @@ return false;
 });
 
 
-$('a[href="http://transitoyarumal.dev/#maps"]').click(function (event)
+$('a[href="'+protocolo+'//'+pathname+'/#maps"]').click(function (event)
 {
 event.stopPropagation();
 var Position = jQuery('[id="maps"]').offset().top;

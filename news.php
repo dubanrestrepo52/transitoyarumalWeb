@@ -36,7 +36,7 @@
 
 	<div class="col-12 text-center mt-3 mb-4">	
 			
-			<a class="ver-mas-noticias" href="http://transitoyarumal.dev/?cat=6" style="text-decoration: none;">Ver todas las noticias</a>
+			<a class="ver-mas-noticias" href="<?php home_url()  ?>/?cat=6" style="text-decoration: none;">Ver todas las noticias</a>
 	</div>
 	
 	
